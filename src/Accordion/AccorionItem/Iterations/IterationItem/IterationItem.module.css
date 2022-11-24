@@ -1,0 +1,122 @@
+.iterationItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 368px;
+  height: auto;
+  background: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.textCenter {
+  flex-grow: 1;
+  padding-left: 3rem;
+}
+
+.textRight {
+  margin-right: 0;
+}
+
+.statusLight {
+  width: 8px;
+  height: 8px;
+  background: #02a53c;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+.iterationItem:hover {
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 10px;
+  width: auto;
+  height: 32px;
+  background: #000000;
+  border: 1px solid #757575;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #757575;
+  text-transform: uppercase;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.confirmQuestion {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.confirmQuestion p {
+  max-width: 300px;
+}
+
+.interactionDiv {
+  margin-left: 5rem;
+  background: unset;
+  max-width: 500px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 280px;
+  height: 20px;
+
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.option {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #757575;
+  margin: 0 1rem;
+}
+
+.greenBtn {
+  border: 1px solid #02a53c;
+  color: #02a53c;
+}

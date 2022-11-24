@@ -1,0 +1,30 @@
+.accordionItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 16px;
+  gap: 10px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: #757575;
+  margin: 8px 0;
+  width: 400px;
+height: auto;
+}
+
+.accordionItem h4:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
